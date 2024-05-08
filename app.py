@@ -2,6 +2,7 @@ from pandasai.llm.local_llm import LocalLLM
 import streamlit as st 
 import pandas as pd 
 from pandasai import SmartDataframe
+import yaml
 
 model = LocalLLM(
     api_base="http://localhost:11434/v1",
